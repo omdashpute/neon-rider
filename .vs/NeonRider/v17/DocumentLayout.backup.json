@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Unity Projects\\NeonRider\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E19E52A-4AD7-75A2-F564-AC9D6EA200BC}|Assembly-CSharp.csproj|e:\\unity projects\\neonrider\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E19E52A-4AD7-75A2-F564-AC9D6EA200BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E19E52A-4AD7-75A2-F564-AC9D6EA200BC}|Assembly-CSharp.csproj|E:\\Unity Projects\\NeonRider\\assets\\scripts\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E19E52A-4AD7-75A2-F564-AC9D6EA200BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E19E52A-4AD7-75A2-F564-AC9D6EA200BC}|Assembly-CSharp.csproj|E:\\Unity Projects\\NeonRider\\assets\\scripts\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E19E52A-4AD7-75A2-F564-AC9D6EA200BC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObstacleSpawner.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\NeonRider\\Assets\\Scripts\\ObstacleSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleSpawner.cs",
+              "ToolTip": "E:\\Unity Projects\\NeonRider\\Assets\\Scripts\\ObstacleSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObstacleSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T04:20:45.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoadManager.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\NeonRider\\Assets\\Scripts\\RoadManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RoadManager.cs",
+              "ToolTip": "E:\\Unity Projects\\NeonRider\\Assets\\Scripts\\RoadManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RoadManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:51:20.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\NeonRider\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "E:\\Unity Projects\\NeonRider\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwEUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:41:58.559Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
