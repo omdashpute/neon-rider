@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     int currentLane = 1;
 
     public GameManager gameManager;
+    
+
 
     void Update()
     {
@@ -62,11 +64,30 @@ public class PlayerController : MonoBehaviour
         transform.position = Vector3.Lerp(transform.position, target, laneChangeSpeed * Time.deltaTime);
     }
 
-    void OnCollisionEnter(Collision other)
+    /*void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Obstacle"))
         {
             gameManager.GameOver();
+        }
+    }*/
+
+    // To detect collision with obstacle
+    private void OnCollisionEnter(UnityEngine.Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("Collided with obstacle");
+            gameManager.GameOver();
+        }
+    }
+
+    // To detect near miss
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("Near Miss!!!");
         }
     }
 }
