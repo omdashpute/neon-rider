@@ -28,6 +28,6 @@ public class ObstacleSpawner : MonoBehaviour
 
         Vector3 pos = new Vector3(x, 1, player.position.z + spawnDistance);
 
-        Instantiate(obstaclePrefab, pos, Quaternion.identity);
+        GameObject obj = Instantiate(obstaclePrefab, pos, Quaternion.identity);
     }
 }

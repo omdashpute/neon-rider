@@ -88,6 +88,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Obstacle"))
         {
             Debug.Log("Near Miss!!!");
+            gameManager.Score();
         }
     }
 }
