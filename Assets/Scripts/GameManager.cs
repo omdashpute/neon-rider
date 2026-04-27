@@ -6,9 +6,11 @@ public class GameManager : MonoBehaviour
     // Reference to the restart button and score tracking
     public GameObject restartButton;
     private int score = 0;
+    private int coins = 0;
 
     // Reference to the score text UI element
     [SerializeField] private TMPro.TextMeshProUGUI scoreText;
+    [SerializeField] private TMPro.TextMeshProUGUI coinsText;
 
     public void SetScore(int score)
     {
@@ -18,6 +20,16 @@ public class GameManager : MonoBehaviour
     public int GetScore()
     {
         return score;
+    }
+
+    public void SetCoins(int coins)
+    {
+        this.coins = coins;
+    }
+
+    public int GetCoins()
+    {
+        return coins;
     }
 
     // Method to handle game over state
@@ -40,5 +52,12 @@ public class GameManager : MonoBehaviour
         score+=10;
         scoreText.text = "Score: " + score;
         SetScore(score);
+    }
+
+    public void Coins()
+    {
+        coins += 1;
+        coinsText.text = "Coins: " + coins;
+        SetCoins(coins);
     }
 }

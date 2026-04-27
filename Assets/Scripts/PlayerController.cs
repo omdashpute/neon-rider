@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     private int score;
     private int nextMilestone = 50;
 
+    private int coins;
+
     // Touch input variables
     private Vector2 startTouch;
     private Vector2 endTouch;
@@ -98,6 +100,14 @@ public class PlayerController : MonoBehaviour
                 nextMilestone += 50; // Set the next milestone for speed increase
             }
         }
+
+        if(other.gameObject.CompareTag("Coin"))
+        {
+            Debug.Log("Collected an item!");
+            gameManager.Coins();
+            GetCoins();
+            Destroy(other.gameObject); // Remove the collectible from the scene
+        }
     }
 
     // Get the current score from GameManager and log it
@@ -110,7 +120,13 @@ public class PlayerController : MonoBehaviour
     // Increase the player's forward speed when a milestone is reached
     private void SpeedProgression()
     {
-            forwardSpeed += 5f;
-            Debug.Log("Speed Increased! Current Speed: " + forwardSpeed);
+        forwardSpeed += 5f;
+        Debug.Log("Speed Increased! Current Speed: " + forwardSpeed);
+    }
+
+    private void GetCoins()
+    {
+        coins = gameManager.GetCoins();
+        Debug.Log("Current Coins: " + coins);
     }
 }
