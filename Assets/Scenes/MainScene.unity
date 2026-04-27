@@ -1780,9 +1780,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2f7ec7cd1dff9c4aa02898e9c5867e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardSpeed: 10
-  laneDistance: 2
-  laneChangeSpeed: 10
   gameManager: {fileID: 124679073}
 --- !u!54 &1771535443
 Rigidbody:
